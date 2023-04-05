@@ -1,0 +1,8 @@
+"0","x <- seq(1:100)"
+"0","y <- rnorm(100) # Generating data form a normal distribution with mean 0 and variance 1"
+"0","data <- data.frame(x = x, y = y )"
+"0","p1 = ggplot(data, aes(x= x, y = y)) +"
+"0","   geom_line()"
+"0","p2 = ggplot(data, aes(x= x, y = y)) +"
+"0","   geom_point()"
+"0","grid.arrange(p1, p2)"
